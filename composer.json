@@ -1,0 +1,21 @@
+{
+    "name": "codhakal/calc",
+    "autoload": {
+        "psr-4": {
+            "Codhakal\\Calc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pramesh Dhakal"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codhakal\\Calc\\CalcServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
